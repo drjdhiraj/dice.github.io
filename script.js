@@ -3,7 +3,7 @@ i = Math.floor(6*Math.random())+1;
 document.write(i);
 
 
-var source1 = "/images/dice" + i + ".png";
+var source1 = "dice" + i + ".png";
 
 var imgElement = document.querySelector(".img1");
 imgElement.src = source1;
@@ -12,7 +12,7 @@ imgElement.src = source1;
 var j = Math.floor(6*Math.random())+1;
 
 
-var source2 = "/images/dice" + j + ".png";
+var source2 = "dice" + j + ".png";
 var pic2 = document.querySelector(".img2");
 
 
